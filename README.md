@@ -6,7 +6,7 @@ You draw an obstacle by typing `x` into cells, press **F9**, and watch the flow 
 
 Under the hood it is a **Lattice Boltzmann (D2Q9, BGK)** solver. Each time step is one pass of Excel's iterative calculation engine.
 
-![Von Kármán vortex street behind a cylinder at Re = 100, Vorticity view, rendered in Excel cells](docs/images/vorticity-vortex-street.png)
+![Von Kármán vortex street behind a cylinder at Re = 100, Vorticity view, rendered in Excel cells](images/vorticity-vortex-street.png)
 
 *A von Kármán vortex street behind a 20-cell cylinder at Re = 100, after about 2,300 time steps. Every colored square is an Excel cell. Blue and red are vortices spinning in opposite directions; the purple disc is the obstacle.*
 
@@ -30,7 +30,7 @@ The same flow seen through each display mode, with the three screenshots taken w
 
 | Velocity | Vorticity | Pressure |
 |---|---|---|
-| ![Velocity view](docs/images/velocity-7-shedding-c.png) | ![Vorticity view](docs/images/vorticity-vortex-street.png) | ![Pressure view](docs/images/pressure-field.png) |
+| ![Velocity view](images/velocity-7-shedding-c.png) | ![Vorticity view](images/vorticity-vortex-street.png) | ![Pressure view](images/pressure-field.png) |
 | Speed of the flow. Red is fast, blue is slow. The blue wake behind the cylinder and the slow layers along the top and bottom walls are clearly visible. | Local spin of the fluid. Red and blue are opposite directions of rotation, white is no rotation. Best view for the vortex street. | Pressure relative to the mean. Red is high pressure (the stagnation point in front of the cylinder), blue is low pressure (the wake). |
 
 ## Grid
